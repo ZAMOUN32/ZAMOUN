@@ -1,0 +1,70 @@
+/* index.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('../Images/FondJapon.png');
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+}
+
+header, footer {
+    text-align: center;
+}
+
+main {
+    text-align: left;
+}
+
+footer {
+    font-style: italic;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Futura', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+ol ol li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Futura', sans-serif;
+    font-size: 0.8em; /* Ajustez la taille selon vos besoins */
+}
+
+ol li a:last-child {
+    margin-bottom: 0; /* Supprimez la marge du dernier lien pour éviter un espace indésirable */
+}
+
+a:hover {
+    color: #3c3a6a;
+}
+
+img {
+    margin-bottom: 20px;
+}
